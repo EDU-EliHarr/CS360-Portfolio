@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="351dp"
+        android:layout_height="112dp"
+        android:text="In mobile applications, SMS permissions are necessary to enable the app to send text messages directly from the device. I wish to keep users engaged with the app by providing consistent updates that help them stay on track with their goals, thereby enhancing the overall effectiveness of the app."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Accept"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="185dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
